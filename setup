@@ -2,6 +2,6 @@
 
 ### That file will allow to setup an environnement with the Devpod tool
 
-echo "Hello" >> hello.txt
-echo "set -o vi" >>  ~/.bashrc
+echo "Hello" >> /tmp/hello # Allow to test if a file has been created after the container is created
+echo "set -o vi" >>  ~/.bashrc # Allow to use Vi motion in CLI
 
