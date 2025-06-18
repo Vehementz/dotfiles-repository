@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 ### That file will allow to setup an environnement with the Devpod tool
 
