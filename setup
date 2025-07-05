@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### That file will allow to setup an environnement with the Devpod tool
+### That file will allow to setup an environnement with the Devpod tool, it is automatically exectured by devcontainer
 # touch /tmp/hello
 touch testfile
 echo "Hello" > /tmp/hello # Allow to test if a file has been created after the container is created
