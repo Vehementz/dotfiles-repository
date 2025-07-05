@@ -3,3 +3,9 @@
 /usr/local/bin/mise trust /workspaces/devcontainermise/mise.toml && /usr/local/bin/mise install
 sudo apt update &&  apt install vim -y 
 
+
+### That file will allow to setup an environnement with the Devpod tool, it is automatically exectured by devcontainer
+# touch /tmp/hello
+
+# echo "Hello" > /tmp/hello # Allow to test if a file has been created after the container is created
+# echo "set -o vi" >>  ~/.bashrc # Allow to use Vi motion in CLI
