@@ -159,4 +159,4 @@ fi
 ## Myself custom editions
 
 set -o vi
-eval "$(mise bash activate)" # for mise
+eval "$(mise activate bash)" # for mise
