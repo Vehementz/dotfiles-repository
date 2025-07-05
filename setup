@@ -9,7 +9,7 @@ echo "Hello" > /tmp/hello # Allow to test if a file has been created after the c
 echo "set -o vi" >>  ~/.bashrc # Allow to use Vi motion in CLI
 
 if ! command -v chezmoi >/dev/null; then
-    sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply git@github.com:mischavandenburg/dotfiles-demo.git
+    sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply git@github.com:Vehementz/dotfiles-repository.git
 fi
 
 exit 0
