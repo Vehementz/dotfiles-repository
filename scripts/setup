@@ -1,5 +1,5 @@
 #!/bin/bash
 
 /usr/local/bin/mise trust /workspaces/devcontainermise/mise.toml && /usr/local/bin/mise install
-# apt install vim
+sudo apt update &&  apt install vim -y 
 
